@@ -1,0 +1,122 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.warning {
+  display: block;
+  background-color: black;
+  }
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./heroimage.jpg");
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* This puts text in the centre of the image*/
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black
+}
+/* .banner { 
+  background-image: url("../images/img_0.jpg");
+  background-size: cover;
+  height: 85vh;
+}*/
+
+
+/* ============================== */
+
+header {
+  width: 100vw;
+  height: 100px:auto;
+  background-color: black;
+}
+
+.warning {
+  height:25px;
+  color: white;
+  font-size:14px;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 75px;
+}
+
+#navLeft {
+  margin-left: 4rem;
+}
+
+#navLeft img {
+  width: 200px;
+  height: 40px;
+}
+
+#navRight {
+  margin-right: 4rem;
+}
+
+#navRight img {
+  width: 130px;
+  height: 35px;
+}
+
+#navMiddle {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li {
+  background-color: blue;
+  margin: 0px 2rem;
+  padding: 8px 8px;
+  border-radius:10px;
+  min-width:100px;
+  text-align: center;
+  list-style-type: none;
+  transition: 0.2s ease-in-out;
+}
+
+nav ul li:hover {
+  transform: scale (1.1);
+  background-color: red;
+}
