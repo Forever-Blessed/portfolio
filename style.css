@@ -156,7 +156,7 @@ nav ul li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  margin: 0px 15px;
+  margin: 0px 100px;
 }
 
 /* -----------------Portfolio Work Section------------------ */
@@ -171,7 +171,7 @@ nav ul li a:hover {
   text-align: left;
   font-size: 40px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: auto;
+  margin: 5px 110px;
   background-color: white;
 }
 .portfoliosectionphoto {
@@ -247,6 +247,11 @@ img {
 
 .carddiv {
   margin: 10px auto;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: rgba(6, 6, 245, 0.6) 0px 7px 29px 0px;
 }
 
 /* ===================================================================== */
