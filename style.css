@@ -109,6 +109,7 @@ nav ul li a:hover {
     url("./heroimage.jpg");
   /* Set a specific height */
   height: 50%;
+  width: 100%;
 
   /* ----Position and center the image to scale nicely on all screens--- */
   background-position: center;
