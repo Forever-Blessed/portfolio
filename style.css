@@ -134,8 +134,8 @@ nav ul li a:hover {
 .aboutme {
   display: flex;
   font-size: 20px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 15px;
 }
 
@@ -145,7 +145,7 @@ nav ul li a:hover {
   font-size: 60px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: auto;
-  background-color: grey;
+  background-color: white;
 }
 
 .aboutmephoto {
@@ -166,6 +166,14 @@ nav ul li a:hover {
   color: black;
 }
 
+.sectionsubheadingportfolio {
+  display: block;
+  text-align: left;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: auto;
+  background-color: white;
+}
 .portfoliosectionphoto {
   min-width: 400px;
   min-height: 400px;
@@ -186,7 +194,7 @@ nav ul li a:hover {
   margin: 15px 100px;
 }
 
-/* ---------------------sapce card --------------------- */
+/* ---------------------space card --------------------- */
 
 .card {
   width: 350px;
@@ -238,5 +246,7 @@ img {
 }
 
 .carddiv {
-  margin: 20px auto;
+  margin: 10px auto;
 }
+
+/* ===================================================================== */
