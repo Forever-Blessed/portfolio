@@ -176,3 +176,11 @@ nav ul li a:hover {
   position: relative;
   margin: 0px 15px;
 }
+
+.portfoliotext {
+  display: flex;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
