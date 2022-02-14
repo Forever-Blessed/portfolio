@@ -200,6 +200,7 @@ nav ul li a:hover {
 .card {
   width: 350px;
   border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
   margin: auto;
   background-color: grey;
 }
@@ -224,7 +225,7 @@ img {
 .spacecardh2 {
   font-style: bold;
   font-size: 2em;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Aladin";
 }
 
 .spacecardtext {
@@ -244,6 +245,7 @@ img {
   background-color: white;
 }
 
+/* ===========================end of sapce card=============================== */
 /* ==========================card deck============================== */
 
 .carddeck {
@@ -255,92 +257,9 @@ img {
   margin: 20px auto;
 }
 
-.card2:hover {
+.card:hover {
   transform: scale(1.15);
+  box-shadow: rgba(6, 6, 245, 0.6) 0px 7px 29px 0px;
 }
 
 /* ===================================================================== */
-/* ====================card deck 2====================================== */
-
-.card2 {
-  width: 350px;
-  border-radius: 20px;
-  margin: auto;
-  background-color: grey;
-}
-
-.carddeck2 {
-  display: flex;
-  margin: 10px 100px;
-}
-
-.carddiv2 {
-  margin: 20px auto;
-  border-width: 4px;
-  border-radius: 6%;
-  border-color: black;
-  border-style: solid;
-}
-
-#card1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border-color: green;
-}
-
-.spacecardh21 {
-}
-
-#card1 :hover {
-  box-shadow: rgba(6, 255, 39, 0.6) 0px 7px 29px 0px;
-}
-
-#card2 {
-  font-family: "Aladin";
-  font-size: 20px;
-  border-color: purple;
-}
-
-.spacecardh22 {
-  font-family: "Aladin";
-}
-
-#card2 :hover {
-  box-shadow: rgba(255, 0, 255, 0.6) 0px 7px 29px 0px;
-}
-
-#card3 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border-color: red;
-}
-
-.spacecardh23 {
-}
-
-#card3 :hover {
-  box-shadow: rgba(245, 6, 6, 0.6) 0px 7px 29px 0px;
-}
-
-.spacecardh24 {
-}
-
-#card4 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 14px;
-  border-color: lightblue;
-}
-
-.spacecardh25 {
-}
-
-#card4 :hover {
-  box-shadow: rgba(6, 245, 245, 0.6) 0px 7px 29px 0px;
-}
-
-#card5 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 15px;
-}
-
-#card5 :hover {
-  box-shadow: rgba(255, 251, 0, 0.6) 0px 7px 29px 0px;
-}
