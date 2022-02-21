@@ -26,7 +26,7 @@ html {
 /* ==========================Header======================== */
 header {
   display: flex;
-  justify-content: left;
+  justify-content: space-evenly;
   align-items: center;
   background-color: grey;
   width: 100vw;
@@ -67,6 +67,7 @@ header {
 #navMiddle {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 nav ul li a {
@@ -85,6 +86,7 @@ nav ul li {
   text-align: center;
   list-style-type: none;
   transition: 0.2s ease-in-out;
+  justify-content: center;
 }
 
 nav ul li:hover {
@@ -137,7 +139,8 @@ nav ul li a:hover {
   background-color: white;
   color: black;
   padding: 15px;
-  margin: 0px 2vw 0px 0px;
+  margin: 0px 2vw;
+  justify-content: left;
 }
 
 .sectionheading {
@@ -150,9 +153,8 @@ nav ul li a:hover {
 }
 
 .aboutmephoto {
-  min-width: 400px;
-  min-height: 400px;
-  max-height: 400px;
+  width: 20vw;
+  height: 30vh;
   background-image: url("./dogo.jpg");
   background-position: top;
   background-repeat: no-repeat;
@@ -174,16 +176,6 @@ nav ul li a:hover {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 5px 110px;
   background-color: white;
-}
-.portfoliosectionphoto {
-  min-width: 400px;
-  min-height: 400px;
-  max-height: 400px;
-  background-image: url("./116147.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  margin: 0px 15px;
 }
 
 .portfoliotext {
@@ -406,6 +398,7 @@ img {
 
 /* screens up to 800px */
 @media screen and (max-width: 801px) {
+
 }
 /* desktop version */
 @media screen and (min-width: 802px) {
