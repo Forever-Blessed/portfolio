@@ -278,6 +278,7 @@ img {
   margin: 10px 100px;
   background-color: black;
   padding: 30px;
+  overflow-x: auto;
 }
 
 .carddiv2 {
