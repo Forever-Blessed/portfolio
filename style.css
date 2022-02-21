@@ -251,6 +251,8 @@ img {
 .carddeck {
   display: flex;
   margin: 1vw 1vw;
+  overflow-x: auto;
+  justify-content: left;
 }
 
 .carddiv {
@@ -272,8 +274,13 @@ img {
   width: 350px;
   border-radius: 20px;
   margin: auto;
-  background-color: grey;
 }
+
+.card1{background-color: green;}
+.card2{background-color: rgb(156, 21, 134);}
+.card3{background-color: red;}
+.card4{background-color: lightblue;}
+.card5{background-color: rgba(255, 251, 0, 0.6)}
 
 .carddeck2 {
   display: flex;
@@ -281,13 +288,13 @@ img {
   background-color: black;
   padding: 30px;
   overflow-x: auto;
+  justify-content: left;
 }
 
 .carddiv2 {
   margin: 20px 1vw;
-  border-width: 4px;
-  border-radius: 6%;
-  border-color: black;
+  border-width: 3px;
+  border-radius: 5%;
   border-style: solid;
 }
 
