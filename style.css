@@ -137,7 +137,7 @@ nav ul li a:hover {
   background-color: white;
   color: black;
   padding: 15px;
-  margin: 0px 30px 0px 0px;
+  margin: 0px 2vw 0px 0px;
 }
 
 .sectionheading {
@@ -157,7 +157,7 @@ nav ul li a:hover {
   background-position: top;
   background-repeat: no-repeat;
   position: relative;
-  margin: 0px 100px;
+  margin: 0px 2vw;
 }
 
 /* -----------------Portfolio Work Section------------------ */
@@ -240,19 +240,21 @@ img {
   background-color: black;
 }
 */
-#portfoliosection {
+.portfoliosection {
   background-color: white;
+  padding: 0vw;
+  margin: 0vw;
 }
 
 /* ==========================card deck============================== */
 
 .carddeck {
   display: flex;
-  margin: 10px 100px;
+  margin: 1vw 1vw;
 }
 
 .carddiv {
-  margin: 20px auto;
+  margin: 20px 1vw;
 }
 
 .carddiv2:hover {
@@ -275,14 +277,14 @@ img {
 
 .carddeck2 {
   display: flex;
-  margin: 10px 100px;
+  margin: 1vw 1vw;
   background-color: black;
   padding: 30px;
   overflow-x: auto;
 }
 
 .carddiv2 {
-  margin: 20px auto;
+  margin: 20px 1vw;
   border-width: 4px;
   border-radius: 6%;
   border-color: black;
@@ -302,13 +304,12 @@ img {
 }
 
 #card2 {
-  font-family: "Aladin";
   font-size: 20px;
   border-color: purple;
 }
 
 .spacecardh22 {
-  font-family: "Aladin";
+  font-family: "Aladin";s
 }
 
 #card2:hover {
