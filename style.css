@@ -255,14 +255,18 @@ img {
   margin: 20px auto;
 }
 
-.card2:hover {
+.carddiv2:hover {
   transform: scale(1.15);
 }
 
 /* ===================================================================== */
 /* ====================card deck 2====================================== */
 
-.card2 {
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
   width: 350px;
   border-radius: 20px;
   margin: auto;
@@ -272,6 +276,8 @@ img {
 .carddeck2 {
   display: flex;
   margin: 10px 100px;
+  background-color: black;
+  padding: 30px;
 }
 
 .carddiv2 {
@@ -290,7 +296,7 @@ img {
 .spacecardh21 {
 }
 
-#card1 :hover {
+#card1:hover {
   box-shadow: rgba(6, 255, 39, 0.6) 0px 7px 29px 0px;
 }
 
@@ -304,7 +310,7 @@ img {
   font-family: "Aladin";
 }
 
-#card2 :hover {
+#card2:hover {
   box-shadow: rgba(255, 0, 255, 0.6) 0px 7px 29px 0px;
 }
 
@@ -316,7 +322,7 @@ img {
 .spacecardh23 {
 }
 
-#card3 :hover {
+#card3:hover {
   box-shadow: rgba(245, 6, 6, 0.6) 0px 7px 29px 0px;
 }
 
@@ -332,7 +338,7 @@ img {
 .spacecardh25 {
 }
 
-#card4 :hover {
+#card4:hover {
   box-shadow: rgba(6, 245, 245, 0.6) 0px 7px 29px 0px;
 }
 
@@ -341,6 +347,61 @@ img {
   font-size: 15px;
 }
 
-#card5 :hover {
+#card5:hover {
   box-shadow: rgba(255, 251, 0, 0.6) 0px 7px 29px 0px;
+}
+
+/* ============================Media Rules================================= */
+/* Phone screens  */
+@media screen and (max-width: 401px) {
+  #navMiddle {
+    flex-direction: column;
+    background-color: black;
+    width: 400px;
+    text-align: center;
+  }
+  .navBar {
+    height: 200px;
+    width: 400px;
+  }
+  .portfoliosectionphoto {
+    margin: 0px;
+  }
+  .aboutme {
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    flex-direction: column;
+  }
+  .aboutmephoto {
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+  }
+  .hero-image {
+    height: 200px;
+    width: 400px;
+  }
+
+  #navLeft,
+  #navRight {
+    padding: 0px;
+    margin: 0px;
+  }
+  .portfoliotext {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+/* screens up to 800px */
+@media screen and (max-width: 801px) {
+}
+/* desktop version */
+@media screen and (min-width: 802px) {
+  #navMiddle {
+    flex-direction: row;
+    background-color: white;
+  }
 }
