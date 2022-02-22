@@ -369,6 +369,12 @@ img {
   margin-top: 0%;
   padding: 0%;
 }
+
+.scrollerdiv2 {
+  background-color: black;
+  margin-top: 0%;
+  padding: 0%;
+}
 /* ============================Media Rules================================= */
 /* Phone screens  */
 @media screen and (max-width: 416px) {
