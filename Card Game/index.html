@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> BlackJack!</h1>
+  <h2> by C.Beswick </h2>
+  <br>
+  <h2> your cards are:</h2>
+  <button id = "shufbut" type="button">Shuffle</button>
+
+  <div class = "hand">
+    <div class = "card1">
+      <h4 id = "topnumbercard1"> 01 </h4>
+      <div class = "imgdiv">
+        <img id = "img1" src="hearts.png" alt="  " />
+      </div>
+    </div> 
+
+    <div class = "card2">
+      <h4 id = "topnumbercard2"> 02 </h4>
+      <div class = "imgdiv">
+        <img id = "img2" src="diamonds.png" alt="  " />
+      </div>
+    </div> 
+
+    <div class = "card3" id = "card3">
+      <h4 id = "topnumbercard3"> 03 </h4>
+      <div class = "imgdiv">
+        <img id = "img3" src="hearts.png" alt="  " />
+      </div>
+    </div> 
+
+    <div class = "card4" id = "card4">
+      <h4 id = "topnumbercard4"> 04 </h4>
+      <div class = "imgdiv">
+        <img id = "img4" src="diamonds.png" alt="  " />
+      </div>
+    </div> 
+
+    <div class = "card5" id = "card5">
+      <h4 id = "topnumbercard5"> 05 </h4>
+      <div class = "imgdiv">
+        <img id = "img5" src="hearts.png" alt="  " />
+      </div>
+    </div>
+  </div>
+
+  <br>
+<h3> The Value of your cards are: </h3>
+<h4 id="showvalue">00</h4>
+<h3> Would you like another card? </h3>
+<button id = "hit" type="button">HIT</button>
+<button id = "but2" type="button">STICK</button>
+
+  <script src="cards.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: white);
+  color: black;
+  max-width: ;
+}
+
+h3 {
+  color: black;
+}
+
+.card1 {
+  margin-top: 30vw;
+  margin-left: 19vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10vw;
+  max-width: 190px;
+  min-width: 50px;
+  height: 15vw;
+  max-height: 300px;
+  min-height: 70px;
+  background-color: white;
+  border-radius: 7.5%;
+  border-color: black;
+  border-width: 0.6vw;
+  border-style: solid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card2 {
+  margin-top: 30vw;
+  margin-left: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10vw;
+  max-width: 190px;
+  min-width: 50px;
+  height: 15vw;
+  max-height: 300px;
+  min-height: 70px;
+  background-color: white;
+  border-radius: 7.5%;
+  border-color: black;
+  border-width: 0.6vw;
+  border-style: solid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card3 ,.card4,.card5 {
+  margin-top: 30vw;
+  margin-left: 1.2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10vw;
+  max-width: 190px;
+  min-width: 50px;
+  height: 15vw;
+  max-height: 300px;
+  min-height: 70px;
+  background-color: white;
+  border-radius: 7.5%;
+  border-color: black;
+  border-width: 0.6vw;
+  border-style: solid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#card3 {
+  display: none;
+}
+
+#card4 {
+  display: none;
+}
+
+#card5 {
+  display: none;
+}
+
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(9, 255, 0, 0.25) 0px 54px 55px,
+    rgba(30, 255, 0, 0.12) 0px -12px 30px, rgba(0, 255, 13, 0.12) 0px 4px 6px,
+    rgba(3, 255, 45, 0.17) 0px 12px 13px, rgba(3, 255, 15, 0.788) 0px -3px 5px;
+}
+
+.imgdiv {
+  margin-top: 0vw;
+}
+
+#img1, #img2, #img3, #img4, #img5 {
+  width: 7.5vw;
+  margin: 0vw 0vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnumbercard1,.topnumbercard2,.topnumbercard3,.topnumbercard4,.topnumbercard5 {
+  color: black;
+}
+
+
+.hand {
+  display: flex;
+  flex-direction: row;
+  background-image: url("table.Jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vw;
+  max-width: 1400px;
+}
+
+h4 {
+  display: flex;
+  font-size: 170%;
+  margin: 0vw 10vw;
+  color: black;
+}
+
+button {
+  margin: 2vw;
+  min-width: 12.5vw;
+  min-height: 5vw;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+#but1 {
+  background-color: rgb(45, 248, 45);
+}
+
+#but1:hover {
+  box-shadow: rgb(1, 255, 35) 0px 14px 28px, rgb(54, 248, 5) 0px 10px 10px;
+}
+
+#but2 {
+  background-color: red;
+}
+
+#but2:hover {
+  box-shadow: rgb(255, 1, 1) 0px 14px 28px, rgb(255, 0, 0) 0px 10px 10px;
+}
+
+h4 {
+  color: black;
+}
