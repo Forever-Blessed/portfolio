@@ -86,9 +86,9 @@ nav ul li a {
 nav ul li {
   display: flex;
   background-color: white;
-  margin: 0px 10px;
+  margin: 0px 0px;
   padding: 15px 50px 15px 50px;
-  border-radius: 5px;
+  border-radius: 0px;
   text-align: center;
   list-style-type: none;
   transition: 0.2s ease-in-out;
@@ -96,8 +96,8 @@ nav ul li {
 }
 
 nav ul li:hover {
-  transform: scale(1.3);
-  background-color: rgb(104, 104, 104);
+  transform: scale(1.0);
+  background-color: grey;
 }
 
 nav ul li a:hover {
@@ -136,6 +136,7 @@ nav ul li a:hover {
   left: 50%;
   transform: translate(-100%, -50%);
   color: white;
+  background-color: grey;
   margin-left: 30px;
 }
 
@@ -154,10 +155,11 @@ nav ul li a:hover {
 .sectionheading {
   display: block;
   text-align: center;
-  font-size: 60px;
+  font-size: 3rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: auto;
   background-color: white;
+  margin-top: 1rem;
 }
 
 .aboutmephoto {
@@ -180,9 +182,9 @@ nav ul li a:hover {
 .sectionsubheadingportfolio {
   display: block;
   text-align: left;
-  font-size: 40px;
+  font-size: 2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: 5px 110px;
+  margin: 2rem;
   background-color: white;
 }
 
@@ -465,7 +467,7 @@ img {
 
 .card1bj {
   margin-top: 30vw;
-  margin-left: 19vw;
+  margin-left: 15vw;
   display: flex;
   flex-direction: column;
   align-items: center;
