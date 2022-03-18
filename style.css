@@ -136,7 +136,6 @@ nav ul li a:hover {
   left: 50%;
   transform: translate(-100%, -50%);
   color: white;
-  background-color: grey;
   margin-left: 30px;
 }
 
@@ -560,7 +559,7 @@ img {
 .hand {
   display: flex;
   flex-direction: row;
-  background-image: url("table.Jpg");
+  background-image: url("table.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
