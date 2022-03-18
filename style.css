@@ -459,6 +459,17 @@ img {
 }
 
 /* blackjack styling */ 
+#tablediv {
+  display:flex;
+  background-image: url("table.jpg");
+  background-size: cover;
+
+
+}
+/*#tableimg {
+  z-index: -5;
+  position : absolute
+}*/
 
 #h3bj {
   color: black;
@@ -559,13 +570,10 @@ img {
 .hand {
   display: flex;
   flex-direction: row;
-  background-image: url("table.jpg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
   height: 60vw;
   max-width: 1400px;
 }
+
 
 #h4bj {
   display: flex;
