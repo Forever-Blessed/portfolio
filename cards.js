@@ -13,6 +13,7 @@ var oneexecuted = false;
 var twoexecuted = false;
 var threeexecuted = false;
 let playerlost = false;
+let chips = 500;
 // this is a function to create the deck 
 function createDeck() {
   let cardsuits = ['H','C','D','S'];
@@ -48,7 +49,7 @@ function shuffleFunc (deck) {
 
 
 //let gameDeck = createDeck();
-function startgame() {
+function startgame () {
   var gameDeck = createDeck();
   shuffleFunc(gameDeck);
   console.log(gameDeck);
@@ -309,7 +310,7 @@ else if (card5value[1] === "2") {
     
 totalvalue = (totalvalue1+totalvalue2)
 twocardvalue = (totalvalue)
-console.log(totalvalue1 + "+" + totalvalue2 + "=" + totalvalue )
+console.log(totalvalue1 + "+" + totalvalue2 + "=" + totalvalue)
 
 
   if (totalvalue >= 22) {
@@ -319,7 +320,7 @@ console.log(totalvalue1 + "+" + totalvalue2 + "=" + totalvalue )
   if (totalvalue) {
     document.querySelector("#showvalue").innerHTML = (totalvalue)
   }
-  return totalvalue
+  return totalvalue;
 }
 
 function cleartable () {
@@ -336,33 +337,38 @@ function cleartable () {
   playerlost = false;
 }
 
-  startgame();
+startgame();
+function funkychips () {
+if (startgame = true) {
+document.querySelector("#chips").innerHTML = (chips)
+ }
+}
+
 
   
-  window.setInterval (function checkwin () {
-  if (!playerlost) {
-  if (totalvalue >= 22) {
-    alert("you Loose!")
-    document.getElementById("hit").style.display = "none";
-    document.getElementById("stick").style.display = "none";
-    playerlost = true;
-  }}
-},1000)
+window.setInterval (function checkwin () {
+if (!playerlost) {
+if (totalvalue >= 22) {
+  alert("you Loose!")
+  document.getElementById("hit").style.display = "none";
+  document.getElementById("stick").style.display = "none";
+  playerlost = true;
+}}},1000)
 
-  function hit () {
+function hit () {
 
-    if (!oneexecuted) {
-      totalvalue === twocardvalue 
-      totalvalue = (twocardvalue + totalvalue3);
-      threecardvalue = totalvalue;
-      console.log("1you now have " + totalvalue)
-      document.getElementById("card3bj").style.display = "flex";
-      document.querySelector("#showvalue").innerHTML = (totalvalue)
-      oneexecuted = true;
-      hitexecuted = true;
-      return totalvalue, oneexecuted;
-      }
-    
+if (!oneexecuted) {
+  totalvalue === twocardvalue 
+  totalvalue = (twocardvalue + totalvalue3);
+  threecardvalue = totalvalue;
+  console.log("1you now have " + totalvalue)
+  document.getElementById("card3bj").style.display = "flex";
+  document.querySelector("#showvalue").innerHTML = (totalvalue)
+  oneexecuted = true;
+  hitexecuted = true;
+  return totalvalue, oneexecuted;
+  }
+
 
     if (!twoexecuted) {
     if (totalvalue === threecardvalue) {
